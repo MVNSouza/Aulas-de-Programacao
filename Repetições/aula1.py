@@ -3,14 +3,14 @@
 contador = 1
 while contador <= 3:
     print(contador)
-    contador = contador + 1
+    contador += 1
 
 # Exercício 1
 
 contador = 1
 while contador <= 100:
     print(contador)
-    contador = contador + 1
+    contador += 1
 
 # Exercício 2
 print("Contagem regressiva de lançamento do foguete...")
@@ -20,7 +20,7 @@ while contador >= 0:
     print(contador)
     if contador == 0:
         print("Fogo!")
-    contador = contador - 1
+    contador -= 1
     
 
 # Exercício 3
@@ -28,7 +28,7 @@ valor = int(input("Valor de entrada: "))
 contador = 1
 while contador <= valor:
     print(contador)
-    contador = contador + 1
+    contador += 1
 
 # Exercício 4
 valor = int(input("Valor de entrada: "))
@@ -36,7 +36,7 @@ contador = 0
 while contador <= valor:
     if contador % 2 == 0:
         print(contador)
-    contador = contador + 1
+    contador += 1
 
 # Exercício 5
 valor = int(input("Valor de entrada: "))
@@ -44,14 +44,14 @@ contador = 1
 while contador <= valor:
     if contador % 2 != 0:
         print(contador)
-    contador = contador + 1
+    contador += 1
 
 # Exercício 6
 valor = int(input("Valor de entrada: "))
 contador = 1
 while contador <= 10:
     print(contador*valor)
-    contador = contador + 1
+    contador += 1
 
 # Exercício 7
 valor = int(input("Valor de entrada: "))
@@ -69,5 +69,5 @@ resultado = valor
 while contador <= valorDeRepeticao :
     if contador == valorDeRepeticao:
         print(resultado)
-    resultado = resultado + valor
+    resultado += valor
     contador = contador + 1
