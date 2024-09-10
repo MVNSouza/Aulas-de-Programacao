@@ -7,3 +7,4 @@
 Até o momento, os conteúdos passados dentro de sala foram:
 * Variáveis
 * Condicionais
+* Repetições
