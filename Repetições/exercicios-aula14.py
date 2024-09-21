@@ -172,6 +172,7 @@ while True:
             print(f)
             c += 10
 
+    # linha de teste 
     repetir = input("Deseja sair? [s/n]: ")
     if repetir == "S" or repetir == "s":
         break
